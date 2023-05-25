@@ -13,10 +13,10 @@ import Workflow from "../../assets/workflow.svg";
 import Profile from "../../assets/profile.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGear } from "@fortawesome/free-solid-svg-icons";
-import "../Home/Home.css";
+import '../nav/Sidebar.css'
 import { Link } from "react-router-dom";
 
-function Home() {
+function Nav() {
   return (
     <nav>
       <article className="article">
@@ -32,11 +32,11 @@ function Home() {
         <ul>
           <li>
             <img src={Img} alt="Img"></img>
-            <Link to="Home">Home</Link>
+            <Link to="/">Home</Link>
           </li>
           <li>
             <img src={Feeds} alt="Feeds"></img>
-            <Link to="Home">Feeds</Link>
+            <Link to="feeds">Feeds</Link>
           </li>
           <li>
             {" "}
@@ -76,4 +76,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Nav;

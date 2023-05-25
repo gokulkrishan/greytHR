@@ -2,7 +2,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: sans-serif;
 }
 
 nav {
@@ -14,7 +13,6 @@ nav {
 
 nav > .article {
   height: auto;
-  /* margin: auto; */
   display: flex;
   flex-direction: column;
 }
@@ -70,7 +68,7 @@ nav > .article > img {
 .article > ul > li {
   list-style: none;
   padding: 15px 10px;
-  font-size: 14px;
+  font-size: 12px;
   color: #677a8e;
   display: flex;
   align-items: center;
@@ -85,20 +83,10 @@ nav > .article > img {
 .article > ul > li > a {
   text-decoration: none;
   color: #677a8e;
-  /* padding: 0 15px;      */
 }
 
 .article > ul > li:hover {
-  /* color: black; */
   filter: invert(10%) sepia(70%) saturate(12%) hue-rotate(87deg) brightness(10%)
     contrast(100%);
 }
 
-/* .article > ul > li:hover > a {
-  color: black;
-}
-
-.article > ul > li:hover > img {
-  filter: invert(10%) sepia(70%) saturate(12%) hue-rotate(87deg) brightness(10%)
-    contrast(50%);
-} */

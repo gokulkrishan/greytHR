@@ -1,16 +1,18 @@
-import './App.css';
-import Home from './components/Home/Home';
-
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import "./App.css";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
+// import Nav from "./components/nav/Sidebar";
+import Home from "./modules/home/Home";
+// import NoPage from "./modules/page/NoPage";
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/information' element={<information />} />
-            </Routes>
+          <Route path="/">
+            <Route index element={<Home />} />
+          </Route>
+        </Routes>
       </BrowserRouter>
     </div>
   );
