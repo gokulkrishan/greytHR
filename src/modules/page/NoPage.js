@@ -1,10 +1,10 @@
 import React from "react";
-import Nav from "../../components/nav/Sidebar";
+// import Nav from "../../components/nav/Sidebar";
 
 function NoPage() {
   return (
     <div>
-      <Nav />
+      {/* <Nav /> */}
       <h2>Error 404: Pgae Not Found</h2>
     </div>
   );
