@@ -1,12 +1,39 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+.home {
+  width: 100%;
+  background-color: #f7f7f7;
+  display: flex;
+  z-index: 0;
 }
 
-.home {
+.sidebar {
+  width: 12%;
+  z-index: 999;
+}
+.topbar {
+  position: relative;
+  z-index: 0;
+  height: 60px;
+}
 
-  background-color: aqua;
-  display: flex;
+.article {
+  width: 88%;
+}
+.greetings {
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: normal;
+  text-align: left;
+  line-height: normal;
+  color: #394657;
+  padding: 20px 25px;
+}
+
+.content{
+  width: 50%;
+   padding: 20px 25px;
+   color: #677a8e;
+   font-weight: 400;
 }
 

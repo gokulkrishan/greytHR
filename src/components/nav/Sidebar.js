@@ -16,14 +16,14 @@ import { faGear } from "@fortawesome/free-solid-svg-icons";
 import '../nav/Sidebar.css'
 import { Link } from "react-router-dom";
 
-function Nav() {
+function Sidebar() {
   return (
     <nav>
       <article className="article">
         <img src={Logo} alt="Logo"></img>
         <div>
           <img src={Profile} alt="Profile"></img>
-          <div>
+          <div className="info">
             <h5>Hi Gokul</h5>
             <Link to="information">View My Info</Link>
           </div>
@@ -76,4 +76,4 @@ function Nav() {
   );
 }
 
-export default Nav;
+export default Sidebar;
