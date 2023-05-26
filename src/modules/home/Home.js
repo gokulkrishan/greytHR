@@ -1,6 +1,7 @@
 import React from "react";
-import Sidebar from "../../components/nav/Sidebar";
-import "./modules/components/Home.css";
+import Sidebar from "../../components/sidebar/Sidebar";
+// import "./components/Home.css";
+import "./Home.css";
 import Topbar from "../../components/top/Topbar";
 import { useState, useEffect } from "react";
 
@@ -43,7 +44,6 @@ const Home = () => {
               <h3>- JOHN F. KENNEDY</h3>
             </div>
           </div>
-          
         </div>
       </article>
     </div>
