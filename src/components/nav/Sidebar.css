@@ -14,6 +14,7 @@ nav > .article {
 nav > .article > img {
   width: 100px;
   height: 45px;
+  cursor: pointer;
 }
 
 .article > div {

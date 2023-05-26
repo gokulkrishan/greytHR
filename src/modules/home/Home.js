@@ -38,7 +38,12 @@ const Home = () => {
               Watch the following video to understand your new Employee Self
               Service portal quickly.
             </p>
+            <div>
+              <p>If not us, who? If not now, when?</p>
+              <h3>- JOHN F. KENNEDY</h3>
+            </div>
           </div>
+          
         </div>
       </article>
     </div>
