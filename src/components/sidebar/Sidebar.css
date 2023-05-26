@@ -1,14 +1,8 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
 nav {
-  width: 12%;
+  width: 100%;
   height: 100vh;
   background-color: aliceblue;
-  padding: 20px 25px;
+  padding: 20px;
 }
 
 nav > .article {
@@ -20,13 +14,13 @@ nav > .article {
 nav > .article > img {
   width: 100px;
   height: 45px;
+  cursor: pointer;
 }
 
 .article > div {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 25px 0;
 }
 
 .article > div > img {
@@ -35,9 +29,10 @@ nav > .article > img {
   border-radius: 50%;
 }
 
-.article > div > div {
+.info {
   display: flex;
   flex-direction: column;
+  padding: 20px 0 0;
 }
 
 .article > div > div > h5 {
@@ -89,4 +84,3 @@ nav > .article > img {
   filter: invert(10%) sepia(70%) saturate(12%) hue-rotate(87deg) brightness(10%)
     contrast(100%);
 }
-

@@ -1,29 +1,29 @@
 import React from "react";
-import Logo from "../../assets/apton.jpg";
-import Img from "../../assets/img.svg";
-import Feeds from "../../assets/feeds.svg";
-import To from "../../assets/to-do.svg";
-import Salary from "../../assets/salary.svg";
-import Leave from "../../assets/leave.svg";
-import Attendance from "../../assets/attendance.svg";
-import Document from "../../assets/document.svg";
-import People from "../../assets/people.svg";
-import Help from "../../assets/helpdesk.svg";
-import Workflow from "../../assets/workflow.svg";
-import Profile from "../../assets/profile.jpg";
+import Logo from "../../assets/sidebar/apton.jpg";
+import Img from "../../assets/sidebar/img.svg";
+import Feeds from "../../assets/sidebar/feeds.svg";
+import To from "../../assets/sidebar/to-do.svg";
+import Salary from "../../assets/sidebar/salary.svg";
+import Leave from "../../assets/sidebar/leave.svg";
+import Attendance from "../../assets/sidebar/attendance.svg";
+import Document from "../../assets/sidebar/document.svg";
+import People from "../../assets/sidebar/people.svg";
+import Help from "../../assets/sidebar/helpdesk.svg";
+import Workflow from "../../assets/sidebar/workflow.svg";
+import Profile from "../../assets/sidebar/profile.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGear } from "@fortawesome/free-solid-svg-icons";
-import '../nav/Sidebar.css'
+import "./Sidebar.css";
 import { Link } from "react-router-dom";
 
-function Nav() {
+function Sidebar() {
   return (
     <nav>
       <article className="article">
         <img src={Logo} alt="Logo"></img>
         <div>
           <img src={Profile} alt="Profile"></img>
-          <div>
+          <div className="info">
             <h5>Hi Gokul</h5>
             <Link to="information">View My Info</Link>
           </div>
@@ -76,4 +76,4 @@ function Nav() {
   );
 }
 
-export default Nav;
+export default Sidebar;

@@ -13,8 +13,8 @@ function App() {
           <Route path="/">
             <Route index element={<Home />} />
           </Route>
-          <Route path="/">
-            <Route path="NoPage" element={<NoPage />} />
+          <Route path="*">
+            <Route path="*" element={<NoPage />} />
           </Route>
         </Routes>
       </BrowserRouter>
